@@ -1,6 +1,8 @@
-To run our implementation of MLP:
+Implementation of a multi layer perceptron from scratch using only Numpy, obtaining a 96.27% accuracy on the MNIST dataset.
+
+To run the implementation of MLP:
     Enter in the directory 'Code'
-    Run our python script mlp.py using:
+    Run the python script mlp.py using:
         python mlp.py [n(1),n(2),...,n(m)] no_of_epochs mini_batch_size learning_rate
 
 where n(i) is the number of neurons in the i th layer
