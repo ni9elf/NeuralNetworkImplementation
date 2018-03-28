@@ -1,0 +1,11 @@
+To run our implementation of MLP:
+    Enter in the directory 'Code'
+    Run our python script mlp.py using:
+        python mlp.py [n(1),n(2),...,n(m)] no_of_epochs mini_batch_size learning_rate
+
+where n(i) is the number of neurons in the i th layer
+Ex: python mlp.py [784,31,10] 5 10 1
+
+Note: 
+The neuron list [n(1),n(2),...,n(m)] should not contain any spaces in the input
+If the training and test data have not been changed, please specify n(input_layer) = 784 and n(output_layer) = 10
